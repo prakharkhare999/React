@@ -22,3 +22,38 @@ npm install
 
 
  
+# tailwind
+go to the docs of tailwind 
+and select the framework space like vite
+and the perticular commands of the framework in the terminal
+
+
+
+
+# props
+function(props){
+    console.log(props.username)
+}
+// another way
+//destruturing
+function({username}){
+    console.log(username)
+}
+
+
+# default set props
+two way 
+1)-> in function
+
+function p(username="default"){
+
+}
+
+2)-> in whole code
+
+<div>
+<h1>{username || "default me"}
+</h1>
+</div>
+
+

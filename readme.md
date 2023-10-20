@@ -1,7 +1,7 @@
 # slow and old
 npx create-react-app 01basicreact
 
-# new way by vite-> loght weight
+# new way by vite-> light weight
 npm create vite@latest
 //and for the node module
 npm install
